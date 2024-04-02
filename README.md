@@ -13,8 +13,8 @@ Utilizing ViKit's 'base' utilities provides a solid foundation for your web proj
 
 ## Get Started with ViKit:
 
-- [HTML code for CDN CSS file]
-- [HTML code for CDN JS file]
+- https://cdn.jsdelivr.net/gh/vedantnanotkar/vikit@v1.0.0/dist/css/vikit.min.css
+- https://cdn.jsdelivr.net/gh/vedantnanotkar/vikit@v1.0.0/dist/js/vikit.min.js
 
 ## How to Use ViKit:
 
