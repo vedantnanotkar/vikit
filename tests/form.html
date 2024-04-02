@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form - VIKit</title>
+    <link rel="stylesheet" href="/css/vikit.css" />
+    <style>
+      body {
+        padding: 3rem;
+      }
+
+      label {
+          margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Form</h1>
+
+    <hr/>
+
+    <!-- Text Input -->
+    <label for="text">Text Input:</label>
+    <input class="vi-input" type="text" id="text" name="text" placeholder="Text"/>
+
+    <br>
+
+    <!-- Password Input -->
+    <label for="password">Password:</label>
+    <input class="vi-input" type="password" id="password" name="password" />
+
+    <br>
+
+    <!-- Email Input -->
+    <label for="email">Email:</label>
+    <input class="vi-input" type="email" id="email" name="email" />
+
+    <br>
+
+    <!-- Number Input -->
+    <label for="number">Number:</label>
+    <input class="vi-input" type="number" id="number" name="number" />
+
+    <br>
+
+    <!-- Date Input -->
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" />
+
+    <br>
+
+    <!-- Time Input -->
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" />
+
+    <br>
+
+    <!-- Color Input -->
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color" />
+
+    <br>
+
+    <!-- Checkbox -->
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox" id="checkbox" name="checkbox" />
+    
+    <br>
+
+    <!-- Radio Buttons -->
+    <fieldset>
+      <legend>Radio Buttons:</legend>
+      <label for="radio1"
+        ><input type="radio" id="radio1" name="radio" />Option 1</label
+      ><br />
+      <label for="radio2"
+        ><input type="radio" id="radio2" name="radio" />Option 2</label
+      ><br />
+      <label for="radio3"
+        ><input type="radio" id="radio3" name="radio" />Option 3</label
+      ><br />
+    </fieldset>
+
+    <br>
+
+    <!-- Select -->
+    <Select>
+        <option value=""></option>
+    </Select>
+
+    <br>
+
+    <!-- File Upload -->
+    <label for="file">File Upload:</label>
+    <input type="file" id="file" name="file" />
+
+    <br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit" />
+
+    <br>
+
+    <!-- Reset Button -->
+    <input type="reset" value="Reset" />
+
+    <br>
+
+    <!-- Button -->
+    <button type="button">Button</button>
+
+    <script src="/js/vikit.js"></script>
+  </body>
+</html>
