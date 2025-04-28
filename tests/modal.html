@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal - VIKit</title>
+    <link rel="stylesheet" href="/css/vikit.css">
+
+    <style>
+        body {
+            padding: 3rem;
+        }
+        body section {
+            display: flex;
+            column-gap: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modal</h1>
+
+    <hr>
+
+    <h3>Position</h3>
+    <section>
+        <button class="vi-btn" data-target="#modalcenter">Center</button>
+        <button class="vi-btn vi-btn-secondary" data-target="#modaltop">Top</button>
+        <button class="vi-btn vi-btn-secondary" data-target="#modalbottom">Bottom</button>
+    </section>
+
+    <hr>
+
+    <h3>Size</h3>
+    <section>
+        <button class="vi-btn" data-target="#modalcenter85">Center 85%</button>
+        <button class="vi-btn vi-btn-secondary" data-target="#modaltop85">Top 85%</button>
+        <button class="vi-btn vi-btn-secondary" data-target="#modalbottom85">Bottom 85%</button>
+        <button class="vi-btn vi-btn-secondary" data-target="#modalfull">Full Page</button>
+    </section>
+
+    <hr>
+
+    <h3>One by One Modal</h3>
+    <section>
+        <button class="vi-btn" data-target="#modalcenter">Center</button>
+    </section>
+
+    <div class="vi-modal" id="modalcenter">
+        <div class="vi-header">
+          <div class="title">Center Modal</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-close-modal">Close</button>
+          <button class="vi-btn vi-btn-secondary vi-close-modal" data-target="#modaltop">Open</button>
+        </div>
+      </div>
+
+    <div class="vi-modal vi-modal-full" id="modalfull">
+        <div class="vi-header">
+          <div class="vi-title">Full Page Modal</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-btn-secondary vi-close-modal">Close</button>
+        </div>
+      </div>
+
+    <div class="vi-modal vi-modal-top" id="modaltop">
+        <div class="vi-header">
+          <div class="vi-title">Top Modal</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-btn-secondary vi-close-modal">Close</button>
+        </div>
+      </div>
+
+    <div class="vi-modal vi-modal-bottom" id="modalbottom">
+        <div class="vi-header">
+          <div class="vi-title">Bottom Modal</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-btn-secondary vi-close-modal">Close</button>
+        </div>
+      </div>
+
+      <div class="vi-modal vi-modal-85" id="modalcenter85">
+        <div class="vi-header">
+          <div class="vi-title">Center 85%</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-btn-secondary vi-close-modal">Close</button>
+        </div>
+      </div>
+
+      <div class="vi-modal vi-modal-top vi-modal-85" id="modaltop85">
+        <div class="vi-header">
+          <div class="vi-title">Top 85%</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-btn-secondary vi-close-modal">Close</button>
+        </div>
+      </div>
+
+      <div class="vi-modal vi-modal-bottom vi-modal-85" id="modalbottom85">
+        <div class="vi-header">
+          <div class="vi-title">Bottom 85%</div>
+          <button class="vi-close-modal">&times;</button>
+        </div>
+        <div class="vi-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur eligendi suscipit unde, porro, officiis illum consequuntur culpa ex voluptate temporibus corrupti, voluptates nihil facilis molestiae. Aut impedit assumenda tempora.</p>
+        </div>
+        <div class="vi-footer">
+          <button class="vi-btn vi-btn-secondary vi-close-modal">Close</button>
+        </div>
+      </div>
+
+    <script src="/js/vikit.js"></script>
+</body>
+</html>
